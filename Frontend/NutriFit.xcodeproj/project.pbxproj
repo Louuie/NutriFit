@@ -14,6 +14,9 @@
 		DE8E4A2B2BFC3D9100E4CC7F /* NutriFitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8E4A2A2BFC3D9100E4CC7F /* NutriFitTests.swift */; };
 		DE8E4A352BFC3D9100E4CC7F /* NutriFitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8E4A342BFC3D9100E4CC7F /* NutriFitUITests.swift */; };
 		DE8E4A372BFC3D9100E4CC7F /* NutriFitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8E4A362BFC3D9100E4CC7F /* NutriFitUITestsLaunchTests.swift */; };
+		DE8E4A442BFC5CDE00E4CC7F /* Scan.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8E4A432BFC5CDE00E4CC7F /* Scan.swift */; };
+		DE8E4A462BFC622C00E4CC7F /* BarcodeScannerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8E4A452BFC622C00E4CC7F /* BarcodeScannerCoordinator.swift */; };
+		DE8E4A482BFC625F00E4CC7F /* BarcodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8E4A472BFC625F00E4CC7F /* BarcodeScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		DE8E4A302BFC3D9100E4CC7F /* NutriFitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutriFitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE8E4A342BFC3D9100E4CC7F /* NutriFitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutriFitUITests.swift; sourceTree = "<group>"; };
 		DE8E4A362BFC3D9100E4CC7F /* NutriFitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutriFitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DE8E4A432BFC5CDE00E4CC7F /* Scan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scan.swift; sourceTree = "<group>"; };
+		DE8E4A452BFC622C00E4CC7F /* BarcodeScannerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerCoordinator.swift; sourceTree = "<group>"; };
+		DE8E4A472BFC625F00E4CC7F /* BarcodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +101,14 @@
 		DE8E4A172BFC3D8F00E4CC7F /* NutriFit */ = {
 			isa = PBXGroup;
 			children = (
+				DE8E4A452BFC622C00E4CC7F /* BarcodeScannerCoordinator.swift */,
 				DE8E4A182BFC3D8F00E4CC7F /* NutriFitApp.swift */,
 				DE8E4A1A2BFC3D8F00E4CC7F /* ContentView.swift */,
 				DE8E4A1C2BFC3D9100E4CC7F /* Assets.xcassets */,
 				DE8E4A1E2BFC3D9100E4CC7F /* NutriFit.entitlements */,
 				DE8E4A1F2BFC3D9100E4CC7F /* Preview Content */,
+				DE8E4A432BFC5CDE00E4CC7F /* Scan.swift */,
+				DE8E4A472BFC625F00E4CC7F /* BarcodeScannerView.swift */,
 			);
 			path = NutriFit;
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE8E4A482BFC625F00E4CC7F /* BarcodeScannerView.swift in Sources */,
+				DE8E4A462BFC622C00E4CC7F /* BarcodeScannerCoordinator.swift in Sources */,
 				DE8E4A1B2BFC3D8F00E4CC7F /* ContentView.swift in Sources */,
 				DE8E4A192BFC3D8F00E4CC7F /* NutriFitApp.swift in Sources */,
+				DE8E4A442BFC5CDE00E4CC7F /* Scan.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +436,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -462,6 +475,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
