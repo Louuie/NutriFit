@@ -10,7 +10,7 @@ import AVFoundation
 
 struct BarcodeScannerView: UIViewRepresentable {
     var didFindCode: (String) -> Void
-
+    
     func makeCoordinator() -> BarcodeScannerCoordinator {
         return BarcodeScannerCoordinator(parent: self)
     }
@@ -50,12 +50,18 @@ struct BarcodeScannerView: UIViewRepresentable {
         previewLayer.videoGravity = .resizeAspectFill
         view.layer.addSublayer(previewLayer)
 
-        session.startRunning()
+        DispatchQueue.global(qos: .userInitiated).async {
+            session.startRunning()
+        }
 
         return view
     }
 
-    func updateUIView(_ uiView: UIView, context: Context) {}
+    func updateUIView(_ uiView: UIView, context: Context) {
+        if let previewLayer = uiView.layer.sublayers?.first as? AVCaptureVideoPreviewLayer {
+            previewLayer.frame = uiView.layer.bounds
+        }
+    }
 }
 
 

@@ -17,6 +17,8 @@
 		DE8E4A442BFC5CDE00E4CC7F /* Scan.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8E4A432BFC5CDE00E4CC7F /* Scan.swift */; };
 		DE8E4A462BFC622C00E4CC7F /* BarcodeScannerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8E4A452BFC622C00E4CC7F /* BarcodeScannerCoordinator.swift */; };
 		DE8E4A482BFC625F00E4CC7F /* BarcodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8E4A472BFC625F00E4CC7F /* BarcodeScannerView.swift */; };
+		DE8E4A4A2BFC778300E4CC7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8E4A492BFC778300E4CC7F /* ViewController.swift */; };
+		DE8E4A832BFC7C6400E4CC7F /* CamerViewControllerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8E4A822BFC7C6400E4CC7F /* CamerViewControllerRepresentable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		DE8E4A432BFC5CDE00E4CC7F /* Scan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scan.swift; sourceTree = "<group>"; };
 		DE8E4A452BFC622C00E4CC7F /* BarcodeScannerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerCoordinator.swift; sourceTree = "<group>"; };
 		DE8E4A472BFC625F00E4CC7F /* BarcodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerView.swift; sourceTree = "<group>"; };
+		DE8E4A492BFC778300E4CC7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE8E4A822BFC7C6400E4CC7F /* CamerViewControllerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamerViewControllerRepresentable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				DE8E4A1F2BFC3D9100E4CC7F /* Preview Content */,
 				DE8E4A432BFC5CDE00E4CC7F /* Scan.swift */,
 				DE8E4A472BFC625F00E4CC7F /* BarcodeScannerView.swift */,
+				DE8E4A492BFC778300E4CC7F /* ViewController.swift */,
+				DE8E4A822BFC7C6400E4CC7F /* CamerViewControllerRepresentable.swift */,
 			);
 			path = NutriFit;
 			sourceTree = "<group>";
@@ -268,9 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE8E4A4A2BFC778300E4CC7F /* ViewController.swift in Sources */,
 				DE8E4A482BFC625F00E4CC7F /* BarcodeScannerView.swift in Sources */,
 				DE8E4A462BFC622C00E4CC7F /* BarcodeScannerCoordinator.swift in Sources */,
 				DE8E4A1B2BFC3D8F00E4CC7F /* ContentView.swift in Sources */,
+				DE8E4A832BFC7C6400E4CC7F /* CamerViewControllerRepresentable.swift in Sources */,
 				DE8E4A192BFC3D8F00E4CC7F /* NutriFitApp.swift in Sources */,
 				DE8E4A442BFC5CDE00E4CC7F /* Scan.swift in Sources */,
 			);

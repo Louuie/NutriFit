@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+import SwiftUI
+
 struct Scan: View {
     @State private var isShowingScanner = false
     @State private var scannedCode: String?
@@ -19,11 +21,8 @@ struct Scan: View {
                     .padding()
             } else {
                 if isShowingScanner {
-                    BarcodeScannerView {
-                        self.scannedCode = $0
-                        self.isShowingScanner = false
-                    }
-                    .edgesIgnoringSafeArea(.all)
+                    CameraViewControllerRepresentable()
+                        .edgesIgnoringSafeArea(.all)
                 } else {
                     Button(action: {
                         self.isShowingScanner = true
@@ -38,7 +37,17 @@ struct Scan: View {
                 }
             }
         }
+        .onReceive(NotificationCenter.default.publisher(for: .didFindBarcode)) { notification in
+            if let code = notification.object as? String {
+                self.scannedCode = code
+                self.isShowingScanner = false
+            }
+        }
     }
+}
+
+extension Notification.Name {
+    static let didFindBarcode = Notification.Name("didFindBarcode")
 }
 
 
