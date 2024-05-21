@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE8E4A192BFC3D8F00E4CC7F /* NutriFitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8E4A182BFC3D8F00E4CC7F /* NutriFitApp.swift */; };
+		DE8E4A1B2BFC3D8F00E4CC7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8E4A1A2BFC3D8F00E4CC7F /* ContentView.swift */; };
+		DE8E4A1D2BFC3D9100E4CC7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8E4A1C2BFC3D9100E4CC7F /* Assets.xcassets */; };
+		DE8E4A212BFC3D9100E4CC7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8E4A202BFC3D9100E4CC7F /* Preview Assets.xcassets */; };
+		DE8E4A2B2BFC3D9100E4CC7F /* NutriFitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8E4A2A2BFC3D9100E4CC7F /* NutriFitTests.swift */; };
+		DE8E4A352BFC3D9100E4CC7F /* NutriFitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8E4A342BFC3D9100E4CC7F /* NutriFitUITests.swift */; };
+		DE8E4A372BFC3D9100E4CC7F /* NutriFitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8E4A362BFC3D9100E4CC7F /* NutriFitUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE8E4A272BFC3D9100E4CC7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE8E4A0D2BFC3D8F00E4CC7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE8E4A142BFC3D8F00E4CC7F;
+			remoteInfo = NutriFit;
+		};
+		DE8E4A312BFC3D9100E4CC7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE8E4A0D2BFC3D8F00E4CC7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE8E4A142BFC3D8F00E4CC7F;
+			remoteInfo = NutriFit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE8E4A152BFC3D8F00E4CC7F /* NutriFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutriFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8E4A182BFC3D8F00E4CC7F /* NutriFitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutriFitApp.swift; sourceTree = "<group>"; };
+		DE8E4A1A2BFC3D8F00E4CC7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE8E4A1C2BFC3D9100E4CC7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE8E4A1E2BFC3D9100E4CC7F /* NutriFit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NutriFit.entitlements; sourceTree = "<group>"; };
+		DE8E4A202BFC3D9100E4CC7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE8E4A262BFC3D9100E4CC7F /* NutriFitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutriFitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8E4A2A2BFC3D9100E4CC7F /* NutriFitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutriFitTests.swift; sourceTree = "<group>"; };
+		DE8E4A302BFC3D9100E4CC7F /* NutriFitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutriFitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8E4A342BFC3D9100E4CC7F /* NutriFitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutriFitUITests.swift; sourceTree = "<group>"; };
+		DE8E4A362BFC3D9100E4CC7F /* NutriFitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutriFitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE8E4A122BFC3D8F00E4CC7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8E4A232BFC3D9100E4CC7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8E4A2D2BFC3D9100E4CC7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE8E4A0C2BFC3D8F00E4CC7F = {
+			isa = PBXGroup;
+			children = (
+				DE8E4A172BFC3D8F00E4CC7F /* NutriFit */,
+				DE8E4A292BFC3D9100E4CC7F /* NutriFitTests */,
+				DE8E4A332BFC3D9100E4CC7F /* NutriFitUITests */,
+				DE8E4A162BFC3D8F00E4CC7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE8E4A162BFC3D8F00E4CC7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE8E4A152BFC3D8F00E4CC7F /* NutriFit.app */,
+				DE8E4A262BFC3D9100E4CC7F /* NutriFitTests.xctest */,
+				DE8E4A302BFC3D9100E4CC7F /* NutriFitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE8E4A172BFC3D8F00E4CC7F /* NutriFit */ = {
+			isa = PBXGroup;
+			children = (
+				DE8E4A182BFC3D8F00E4CC7F /* NutriFitApp.swift */,
+				DE8E4A1A2BFC3D8F00E4CC7F /* ContentView.swift */,
+				DE8E4A1C2BFC3D9100E4CC7F /* Assets.xcassets */,
+				DE8E4A1E2BFC3D9100E4CC7F /* NutriFit.entitlements */,
+				DE8E4A1F2BFC3D9100E4CC7F /* Preview Content */,
+			);
+			path = NutriFit;
+			sourceTree = "<group>";
+		};
+		DE8E4A1F2BFC3D9100E4CC7F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DE8E4A202BFC3D9100E4CC7F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DE8E4A292BFC3D9100E4CC7F /* NutriFitTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE8E4A2A2BFC3D9100E4CC7F /* NutriFitTests.swift */,
+			);
+			path = NutriFitTests;
+			sourceTree = "<group>";
+		};
+		DE8E4A332BFC3D9100E4CC7F /* NutriFitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE8E4A342BFC3D9100E4CC7F /* NutriFitUITests.swift */,
+				DE8E4A362BFC3D9100E4CC7F /* NutriFitUITestsLaunchTests.swift */,
+			);
+			path = NutriFitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE8E4A142BFC3D8F00E4CC7F /* NutriFit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8E4A3A2BFC3D9100E4CC7F /* Build configuration list for PBXNativeTarget "NutriFit" */;
+			buildPhases = (
+				DE8E4A112BFC3D8F00E4CC7F /* Sources */,
+				DE8E4A122BFC3D8F00E4CC7F /* Frameworks */,
+				DE8E4A132BFC3D8F00E4CC7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NutriFit;
+			productName = NutriFit;
+			productReference = DE8E4A152BFC3D8F00E4CC7F /* NutriFit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE8E4A252BFC3D9100E4CC7F /* NutriFitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8E4A3D2BFC3D9100E4CC7F /* Build configuration list for PBXNativeTarget "NutriFitTests" */;
+			buildPhases = (
+				DE8E4A222BFC3D9100E4CC7F /* Sources */,
+				DE8E4A232BFC3D9100E4CC7F /* Frameworks */,
+				DE8E4A242BFC3D9100E4CC7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE8E4A282BFC3D9100E4CC7F /* PBXTargetDependency */,
+			);
+			name = NutriFitTests;
+			productName = NutriFitTests;
+			productReference = DE8E4A262BFC3D9100E4CC7F /* NutriFitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE8E4A2F2BFC3D9100E4CC7F /* NutriFitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8E4A402BFC3D9100E4CC7F /* Build configuration list for PBXNativeTarget "NutriFitUITests" */;
+			buildPhases = (
+				DE8E4A2C2BFC3D9100E4CC7F /* Sources */,
+				DE8E4A2D2BFC3D9100E4CC7F /* Frameworks */,
+				DE8E4A2E2BFC3D9100E4CC7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE8E4A322BFC3D9100E4CC7F /* PBXTargetDependency */,
+			);
+			name = NutriFitUITests;
+			productName = NutriFitUITests;
+			productReference = DE8E4A302BFC3D9100E4CC7F /* NutriFitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE8E4A0D2BFC3D8F00E4CC7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					DE8E4A142BFC3D8F00E4CC7F = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					DE8E4A252BFC3D9100E4CC7F = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = DE8E4A142BFC3D8F00E4CC7F;
+					};
+					DE8E4A2F2BFC3D9100E4CC7F = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = DE8E4A142BFC3D8F00E4CC7F;
+					};
+				};
+			};
+			buildConfigurationList = DE8E4A102BFC3D8F00E4CC7F /* Build configuration list for PBXProject "NutriFit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE8E4A0C2BFC3D8F00E4CC7F;
+			productRefGroup = DE8E4A162BFC3D8F00E4CC7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE8E4A142BFC3D8F00E4CC7F /* NutriFit */,
+				DE8E4A252BFC3D9100E4CC7F /* NutriFitTests */,
+				DE8E4A2F2BFC3D9100E4CC7F /* NutriFitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE8E4A132BFC3D8F00E4CC7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8E4A212BFC3D9100E4CC7F /* Preview Assets.xcassets in Resources */,
+				DE8E4A1D2BFC3D9100E4CC7F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8E4A242BFC3D9100E4CC7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8E4A2E2BFC3D9100E4CC7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE8E4A112BFC3D8F00E4CC7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8E4A1B2BFC3D8F00E4CC7F /* ContentView.swift in Sources */,
+				DE8E4A192BFC3D8F00E4CC7F /* NutriFitApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8E4A222BFC3D9100E4CC7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8E4A2B2BFC3D9100E4CC7F /* NutriFitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8E4A2C2BFC3D9100E4CC7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8E4A372BFC3D9100E4CC7F /* NutriFitUITestsLaunchTests.swift in Sources */,
+				DE8E4A352BFC3D9100E4CC7F /* NutriFitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE8E4A282BFC3D9100E4CC7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE8E4A142BFC3D8F00E4CC7F /* NutriFit */;
+			targetProxy = DE8E4A272BFC3D9100E4CC7F /* PBXContainerItemProxy */;
+		};
+		DE8E4A322BFC3D9100E4CC7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE8E4A142BFC3D8F00E4CC7F /* NutriFit */;
+			targetProxy = DE8E4A312BFC3D9100E4CC7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DE8E4A382BFC3D9100E4CC7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE8E4A392BFC3D9100E4CC7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DE8E4A3B2BFC3D9100E4CC7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NutriFit/NutriFit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NutriFit/Preview Content\"";
+				DEVELOPMENT_TEAM = MDF3N2T3GE;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NutriFit.NutriFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE8E4A3C2BFC3D9100E4CC7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NutriFit/NutriFit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NutriFit/Preview Content\"";
+				DEVELOPMENT_TEAM = MDF3N2T3GE;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NutriFit.NutriFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE8E4A3E2BFC3D9100E4CC7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MDF3N2T3GE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NutriFit.NutriFitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NutriFit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NutriFit";
+			};
+			name = Debug;
+		};
+		DE8E4A3F2BFC3D9100E4CC7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MDF3N2T3GE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NutriFit.NutriFitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NutriFit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NutriFit";
+			};
+			name = Release;
+		};
+		DE8E4A412BFC3D9100E4CC7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MDF3N2T3GE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NutriFit.NutriFitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NutriFit;
+			};
+			name = Debug;
+		};
+		DE8E4A422BFC3D9100E4CC7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MDF3N2T3GE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NutriFit.NutriFitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NutriFit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE8E4A102BFC3D8F00E4CC7F /* Build configuration list for PBXProject "NutriFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8E4A382BFC3D9100E4CC7F /* Debug */,
+				DE8E4A392BFC3D9100E4CC7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE8E4A3A2BFC3D9100E4CC7F /* Build configuration list for PBXNativeTarget "NutriFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8E4A3B2BFC3D9100E4CC7F /* Debug */,
+				DE8E4A3C2BFC3D9100E4CC7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE8E4A3D2BFC3D9100E4CC7F /* Build configuration list for PBXNativeTarget "NutriFitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8E4A3E2BFC3D9100E4CC7F /* Debug */,
+				DE8E4A3F2BFC3D9100E4CC7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE8E4A402BFC3D9100E4CC7F /* Build configuration list for PBXNativeTarget "NutriFitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8E4A412BFC3D9100E4CC7F /* Debug */,
+				DE8E4A422BFC3D9100E4CC7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE8E4A0D2BFC3D8F00E4CC7F /* Project object */;
+}
