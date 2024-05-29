@@ -50,7 +50,7 @@ class ViewController: UIViewController {
     
     private func setupCamera() {
         let session = AVCaptureSession()
-        session.sessionPreset = .photo
+        session.sessionPreset = .hd4K3840x2160
         if let device = AVCaptureDevice.default(for: .video) {
             do {
                 let input = try AVCaptureDeviceInput(device: device)
