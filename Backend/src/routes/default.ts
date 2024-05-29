@@ -1,6 +1,6 @@
-import { Request, Response } from 'express';
+import { Response } from "express";
 
 
-export const defaultRoute = (req: Request, res: Response) => {
+export const defaultRoute = (res: Response) => {
     res.json({app_name: 'NutriFit'});
 }
