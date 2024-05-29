@@ -6,7 +6,7 @@ const app = express();
 dotenv.config();
 const port = process.env.port || 3000;
 
-app.get('/', defaultRoute);
+app.get('/', defaultRoute);     
 
 app.get('/search', searchForItem);
 
