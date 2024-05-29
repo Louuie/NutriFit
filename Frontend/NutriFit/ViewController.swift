@@ -14,6 +14,10 @@ class ViewController: UIViewController {
         view.backgroundColor = .black
         view.layer.addSublayer(previewLayer)
         checkCameraPermissions()
+        
+        // Add a Tap Gesture
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(handleTapToFocus(_:)))
+        view.addGestureRecognizer(tapGesture)
     }
     
     override func viewDidLayoutSubviews() {
@@ -46,6 +50,7 @@ class ViewController: UIViewController {
     
     private func setupCamera() {
         let session = AVCaptureSession()
+        session.sessionPreset = .photo
         if let device = AVCaptureDevice.default(for: .video) {
             do {
                 let input = try AVCaptureDeviceInput(device: device)
@@ -70,7 +75,39 @@ class ViewController: UIViewController {
             }
         }
     }
+    
+    // Tap Gesture
+    @objc private func handleTapToFocus(_ gesture: UITapGestureRecognizer) {
+        let point = gesture.location(in: view)
+        print("Tap detected at point: \(point)") // Logging the tap location
+        focus(at: point)
+    }
+    private func focus(at point: CGPoint) {
+        guard let device = AVCaptureDevice.default(for: .video) else { return }
+        let focusPoint = previewLayer.captureDevicePointConverted(fromLayerPoint: point)
+        print("Converted focus point: \(focusPoint)") // Logging the converted focus point
+        
+        do {
+            try device.lockForConfiguration()
+            
+            if device.isFocusPointOfInterestSupported && device.isFocusModeSupported(.continuousAutoFocus) && device.isExposurePointOfInterestSupported {
+                
+                // Focus
+                device.focusPointOfInterest = focusPoint
+                device.focusMode = .continuousAutoFocus
+                
+                // Exposure
+                device.exposurePointOfInterest = focusPoint
+                device.exposureMode = .autoExpose
+            }
+            device.unlockForConfiguration()
+        } catch {
+            print(error)
+        }
+    }
+
 }
+
 
 extension ViewController: AVCaptureMetadataOutputObjectsDelegate {
     func metadataOutput(_ output: AVCaptureMetadataOutput, didOutput metadataObjects: [AVMetadataObject], from connection: AVCaptureConnection) {
