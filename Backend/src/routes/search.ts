@@ -28,6 +28,14 @@ export const searchForItem = async (req: Request, res: Response) => {
             food_nutrients: nutrientObject,
         }
         res.json(searchResult);
-    }).catch((err) => res.status(500).json(err))
+    }).catch((error) => {
+        if(error.response) {
+            res.status(500).json({error: error.response.data})
+        } else if (error.request) {
+            res.status(500).json({error: error.request})
+        } else {
+            res.status(500).json({error: error.message})
+        }
+    });
 }
 
