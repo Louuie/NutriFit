@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64DE8D412C06CB86002AC6E5 /* Nutrients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DE8D402C06CB86002AC6E5 /* Nutrients.swift */; };
+		64DE8D432C06CC88002AC6E5 /* NutrientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DE8D422C06CC88002AC6E5 /* NutrientView.swift */; };
 		DE8E4A192BFC3D8F00E4CC7F /* NutriFitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8E4A182BFC3D8F00E4CC7F /* NutriFitApp.swift */; };
 		DE8E4A1B2BFC3D8F00E4CC7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8E4A1A2BFC3D8F00E4CC7F /* ContentView.swift */; };
 		DE8E4A1D2BFC3D9100E4CC7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8E4A1C2BFC3D9100E4CC7F /* Assets.xcassets */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		64DE8D402C06CB86002AC6E5 /* Nutrients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nutrients.swift; sourceTree = "<group>"; };
+		64DE8D422C06CC88002AC6E5 /* NutrientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutrientView.swift; sourceTree = "<group>"; };
 		DE8E4A152BFC3D8F00E4CC7F /* NutriFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutriFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE8E4A182BFC3D8F00E4CC7F /* NutriFitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutriFitApp.swift; sourceTree = "<group>"; };
 		DE8E4A1A2BFC3D8F00E4CC7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -109,6 +113,8 @@
 				DE8E4A432BFC5CDE00E4CC7F /* Scan.swift */,
 				DE8E4A492BFC778300E4CC7F /* ViewController.swift */,
 				DE8E4A822BFC7C6400E4CC7F /* CamerViewControllerRepresentable.swift */,
+				64DE8D402C06CB86002AC6E5 /* Nutrients.swift */,
+				64DE8D422C06CC88002AC6E5 /* NutrientView.swift */,
 			);
 			path = NutriFit;
 			sourceTree = "<group>";
@@ -273,6 +279,8 @@
 				DE8E4A832BFC7C6400E4CC7F /* CamerViewControllerRepresentable.swift in Sources */,
 				DE8E4A192BFC3D8F00E4CC7F /* NutriFitApp.swift in Sources */,
 				DE8E4A442BFC5CDE00E4CC7F /* Scan.swift in Sources */,
+				64DE8D412C06CB86002AC6E5 /* Nutrients.swift in Sources */,
+				64DE8D432C06CC88002AC6E5 /* NutrientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
