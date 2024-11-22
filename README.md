@@ -67,4 +67,8 @@ Once you installed all the packages you can start the backend(server) but run th
 
 ```bash
 yarn start
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> 6cc4d0e (fixed merge issues)

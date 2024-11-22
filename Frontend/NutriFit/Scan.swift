@@ -16,9 +16,7 @@ struct Scan: View {
     var body: some View {
         VStack {
             if let scannedCode = scannedCode {
-                Text("Scanned Code: \(scannedCode)")
-                    .font(.largeTitle)
-                    .padding()
+                NutrientView(upc: scannedCode)
             } else {
                 if isShowingScanner {
                     CameraViewControllerRepresentable()
